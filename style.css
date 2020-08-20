@@ -1,0 +1,46 @@
+h1{
+  text-align: center;
+  color: white
+  }
+
+body{
+  text-align:center;
+  background: green;
+  color:green;
+}
+
+li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container{ 
+ width: 80%;
+ margin: 0 auto;
+ background: white
+}
+
+.header{
+  background: white
+}
+
+nav{
+  float: right; 
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
