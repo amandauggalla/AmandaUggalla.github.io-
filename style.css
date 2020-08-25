@@ -1,12 +1,18 @@
 h1{
   text-align: center;
-  color: white
+  color:green;
+  font-size: 50px;
+  line-height: 80px; 
+  padding: 0 100px; 
+  font-weight: bold; 
   }
 
 body{
-  text-align:center;
-  background: green;
-  color:green;
+  text-align: center;
+  background:white;
+  color: green;
+  font-family: montserrat; 
+  float: right; 
 }
 
 li{
@@ -16,9 +22,9 @@ li{
 }
 
 .container{ 
- width: 80%;
+ width: 100%;
  margin: 0 auto;
- background: white
+ background: white; 
 }
 
 .header{
@@ -26,16 +32,73 @@ li{
 }
 
 nav{
-  float: right; 
+ background:gray; 
+ height: 80px;
+ width: 100%; 
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none; 
+  list-style: none;
+  box-sizing: border-box; 
+}
+nav ul{
+  float: center; 
+  margin-right: 20px; 
+}
+
+nav ul li{
+  display: inline-block; 
+  line-height: 80px; 
+  margin: 0 5px; 
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase; 
+}
+
+a.active,a:hover{
+  background: green;
+  transition: .5s; 
+}
+
+img{
+  float: left;
+}
+
+p{
+  font-size: 25px; 
+  text-align: center; 
+  margin-left: 10px;
 }
 
 
+h1{
+  text-align: center;
+  font-size: 40px
+}
 
- 
+p{
+  padding-top: 33px;
+  padding-left: 10px; 
+}
 
+h2{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+   
+}
 
-
-
+.resources{
+  background-color: black; 
+  text-align: center; 
+}
 
 
 
