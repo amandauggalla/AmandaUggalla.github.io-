@@ -11,8 +11,8 @@ body{
   text-align: center;
   background:white;
   color: green;
-  font-family: montserrat; 
-  float: right; 
+  font-family: 'PT Sans', sans-serif;
+   
 }
 
 li{
@@ -32,7 +32,7 @@ li{
 }
 
 nav{
- background:gray; 
+ background: black; 
  height: 80px;
  width: 100%; 
 }
@@ -68,7 +68,7 @@ a.active,a:hover{
   transition: .5s; 
 }
 
-img{
+#jigsaw{
   float: left;
 }
 
@@ -96,14 +96,30 @@ h2{
 }
 
 .resources{
-  background-color: black; 
+  background-color: white; 
   text-align: center; 
 }
 
+.header{
+  height: 300px; 
+  width: 100%;
+  background: url("./MHAM-banner-1.jpg"); 
+  background-size: contain;   
+  background-repeat: no-repeat; 
+  background-position: center;
+  
+}
 
-
-
-
+#hero{
+  max-width: 150%;
+  max-height: 100%; 
+  object-fit: cover; 
+}
+.greenRectangle{ 
+  background-color:#8cc63e;
+  height:30px; 
+  width:100% 
+  }
 
 
 
